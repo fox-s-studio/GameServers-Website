@@ -1,0 +1,15 @@
+.Navbar
+    background-color: hsla(243,27%,40%,.2)
+    box-shadow: 5px 0 10px hsla(180, 67%, 54%, .5)
+    height: 100px
+    left: 0
+    padding: 10px 20px
+    position: absolute
+    top: 0
+    width: 100%
+    z-index: 10
+    &.active
+        animation: NavActivate .5s forwards
+        background-color: $dark-3
+        position: fixed
+        transition-duration: 1s
