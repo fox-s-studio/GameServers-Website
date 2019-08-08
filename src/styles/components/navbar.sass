@@ -1,7 +1,11 @@
 .Navbar
+    align-items: center
     background-color: hsla(243,27%,40%,.2)
     box-shadow: 5px 0 10px hsla(180, 67%, 54%, .5)
+    display: flex
+    flex-direction: row
     height: 100px
+    justify-content: space-between
     left: 0
     padding: 10px 20px
     position: absolute
@@ -13,3 +17,17 @@
         background-color: $dark-3
         position: fixed
         transition-duration: 1s
+    .Logo
+        height: 100%
+        img
+            max-height: 100%
+    .Menu
+        .item
+            display: inline
+            padding: 0 20px
+        a
+            color: $light-3
+            transition-duration: .3s
+            &:hover
+                color: $primary
+                cursor: pointer

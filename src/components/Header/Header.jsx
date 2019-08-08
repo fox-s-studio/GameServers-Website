@@ -13,6 +13,9 @@ function Header(){
                 <h1 className="title">
                     FoxStudio - Gaming Servers
                 </h1>
+                <h3 className="subtitle">
+                    Hub de serveurs gaming développé par Foxstudio.
+                </h3>
             </div>
         </div>
     )
