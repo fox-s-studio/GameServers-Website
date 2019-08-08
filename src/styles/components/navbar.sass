@@ -14,9 +14,8 @@
     z-index: 10
     &.active
         animation: NavActivate .5s forwards
-        background-color: $dark-3
         position: fixed
-        transition-duration: 1s
+        transition-duration: 2s
     .Logo
         height: 100%
         img
@@ -28,6 +27,6 @@
         a
             color: $light-3
             transition-duration: .3s
-            &:hover
+            &:hover, &.current
                 color: $primary
                 cursor: pointer

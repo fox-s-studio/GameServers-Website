@@ -12,7 +12,7 @@ function App() {
 
   const handleScroll = e => {
     let element = e.target;
-    console.log(e.target.scrollingElement.scrollTop)
+
     if (element.scrollingElement.scrollTop > 150){
       setNavActive(true);
     } else if (element.scrollingElement.scrollTop < 150 && !navActive){
