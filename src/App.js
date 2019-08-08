@@ -24,7 +24,7 @@ function App() {
     window.addEventListener('scroll', handleScroll, true);
     setTimeout(() => {
       setLoaded(true)
-    },6000);
+    },5000);
   });
 
   return (loaded) ? (
