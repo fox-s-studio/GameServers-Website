@@ -1,0 +1,25 @@
+.Loading
+    align-items: center
+    display: flex
+    flex-direction: column
+    height: 100vh
+    justify-content: center
+    position: relative
+    width: 100%
+    svg
+        //animation: rotate 2.5s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite forwards
+        transform-origin: 50% 65%
+        height: 300px
+        width: 300px
+        polygon
+            fill: transparent
+            stroke: $primary
+            stroke-width: .2px
+            stroke-dasharray: 17
+            animation: dash 3s cubic-bezier(0.35, 0.04, 0.63, 0.95) infinite
+    p
+        animation: textLoad 1s infinite alternate
+        color: $primary
+        font-size: 20px
+        position: absolute
+        top: 53%
